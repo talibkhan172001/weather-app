@@ -200,6 +200,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const dayStartHour = 6;  // 6 AM
     const nightStartHour = 18; // 6 PM
 
+    const testHour = 18;
+    const currentHour = testHour;
+
 
     // Select video based on time
     if (currentHour >= dayStartHour && currentHour < nightStartHour) {
